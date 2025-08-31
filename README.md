@@ -1,6 +1,8 @@
 # Farcaster Mini App Template w/ Base MiniKit
 
+
 This is a [Next.js](https://nextjs.org) starter kit bootstrapped from [Mini App Next Template](https://github.com/builders-garden/miniapp-next-template)
+To open the application you need Base and its mini-applications
 
 - [MiniKit](https://docs.base.org/builderkits/minikit/overview)
 - [Farcaster Mini Apps](https://miniapps.xyz)

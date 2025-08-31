@@ -65,8 +65,15 @@ const LoginModal = ({ isOpen, onClose, loginForm, onFormChange, onSubmit }: any)
 };
 
 // Componente OptimizationModal separado
-const OptimizationModal = ({ isOpen, onClose, optimizationForm, onFormChange, onSubmit, savings }) => {
-  if (!isOpen) return null;
+const OptimizationModal = ({ isOpen, onClose, optimizationForm, onFormChange, onSubmit, savings }: {
+  isOpen: boolean;
+  onClose: () => void;
+  optimizationForm: any;
+  onFormChange: (e: any) => void;
+  onSubmit: () => void;
+  savings: any;
+}) => {
+    if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">

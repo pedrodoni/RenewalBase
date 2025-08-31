@@ -100,7 +100,7 @@ const OptimizationModal = ({ isOpen, onClose, optimizationForm, onFormChange, on
                 step="0.01"
                 min="0"
                 value={optimizationForm.kwhConsumption}
-                onChange={(e) => onFormChange('kwhConsumption', e.target.value)}
+               onChange={(e) => onFormChange(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
                 placeholder="300"
                 required
@@ -116,7 +116,7 @@ const OptimizationModal = ({ isOpen, onClose, optimizationForm, onFormChange, on
                 step="0.001"
                 min="0"
                 value={optimizationForm.pricePerKwh}
-                onChange={(e) => onFormChange('pricePerKwh', e.target.value)}
+onChange={(e) => onFormChange(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
                 placeholder="0.15"
                 required
@@ -132,7 +132,7 @@ const OptimizationModal = ({ isOpen, onClose, optimizationForm, onFormChange, on
                 min="1"
                 max="24"
                 value={optimizationForm.hoursPerDay}
-                onChange={(e) => onFormChange('hoursPerDay', e.target.value)}
+onChange={(e) => onFormChange(e.target.value)}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"
                 required
               />

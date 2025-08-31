@@ -5,6 +5,11 @@
 
 
 This is a [Next.js](https://nextjs.org) starter kit bootstrapped from [Mini App Next Template](https://github.com/builders-garden/miniapp-next-template)
+This is a project that promotes the use of decentralized electrical energy and, through tokens, generates a fully sustainable ecosystem.
+The future is now.
+Este es un proyecto que promueve el uso de energía eléctrica descentralizada y, mediante tokens, genera un ecosistema totalmente sostenible.
+El futuro es ahora.
+
 To open the application you need Base and its mini-applications
 
 - [MiniKit](https://docs.base.org/builderkits/minikit/overview)

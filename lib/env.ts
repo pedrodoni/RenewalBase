@@ -1,20 +1,4 @@
-// Agrega esto al INICIO de tu archivo lib/env.ts (antes de cualquier importación)
 
-// Bypass de validación para deployment
-if (process.env.NODE_ENV === 'production' || process.env.SKIP_ENV_VALIDATION === 'true') {
-  // Variables dummy para producción
-  process.env.NEYNAR_API_KEY = process.env.NEYNAR_API_KEY || 'dummy_key';
-  process.env.JWT_SECRET = process.env.JWT_SECRET || 'dummy_secret_at_least_32_characters_long_for_jwt';
-  process.env.REDIS_URL = process.env.REDIS_URL || 'redis://localhost:6379';
-  process.env.REDIS_TOKEN = process.env.REDIS_TOKEN || 'dummy_token';
-  process.env.NEXT_PUBLIC_URL = process.env.NEXT_PUBLIC_URL || 'https://pedrodoni.github.io/RenewalBase';
-  process.env.NEXT_PUBLIC_MINIKIT_PROJECT_ID = process.env.NEXT_PUBLIC_MINIKIT_PROJECT_ID || 'dummy_project_id';
-  process.env.NEXT_PUBLIC_FARCASTER_HEADER = process.env.NEXT_PUBLIC_FARCASTER_HEADER || 'dummy_header';
-  process.env.NEXT_PUBLIC_FARCASTER_PAYLOAD = process.env.NEXT_PUBLIC_FARCASTER_PAYLOAD || 'dummy_payload';
-  process.env.NEXT_PUBLIC_FARCASTER_SIGNATURE = process.env.NEXT_PUBLIC_FARCASTER_SIGNATURE || 'dummy_signature';
-}
-
-// Aquí va el resto de tu código original de env.ts
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 

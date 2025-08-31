@@ -1,6 +1,33 @@
 # Farcaster Mini App Template w/ Base MiniKit
 
+<img width="229" height="50" alt="image" src="https://github.com/user-attachments/assets/f009e582-db39-43dc-bbc4-cf70db70e916" />
+
+
+
 This is a [Next.js](https://nextjs.org) starter kit bootstrapped from [Mini App Next Template](https://github.com/builders-garden/miniapp-next-template)
+This is a project that promotes the use of decentralized electrical energy and, through tokens, generates a fully sustainable ecosystem.
+The future is now.
+
+Our project is built on a tokenized energy platform, powered by our token ENERGYBASE. This innovation transforms energy into a transparent and tradable digital asset, paving the way for a more efficient and modern ecosystem.
+
+We integrate a ranking system that encourages the purchase of energy generators, while also leveraging Artificial Intelligence for automated energy management. This enables real-time optimization of distribution, consumption, and efficiency, creating a smarter and more sustainable ecosystem.
+
+With this approach, we not only promote the use of renewable energy but also deliver a highly attractive solution for large companies, helping them reduce costs, enhance their environmental footprint, and participate in a decentralized, next-generation energy market.
+
+
+Este es un proyecto que promueve el uso de energía eléctrica descentralizada y, mediante tokens, genera un ecosistema totalmente sostenible.
+El futuro es ahora.
+
+
+Nuestro proyecto se basa en una plataforma de energía tokenizada, impulsada por nuestro token ENERGYBASE. Esta innovación convierte la energía en un activo digital transparente e intercambiable, abriendo la puerta a un ecosistema más eficiente y moderno.
+
+Integramos un sistema de ranking que incentiva la compra de generadores de energía y, al mismo tiempo, utilizamos Inteligencia Artificial para la automatización de la gestión energética. Esto permite optimizar la distribución, el consumo y la eficiencia en tiempo real, garantizando un ecosistema más inteligente y sostenible.
+
+Con esta propuesta, no solo fomentamos el uso de energías renovables, sino que también ofrecemos una solución altamente atractiva para grandes empresas, ayudándolas a reducir costos, mejorar su huella ambiental y participar en un mercado energético descentralizado y de próxima generación.
+
+DONIQUIAN PEDRO - REBOLLEDO SANTIAGO - PABLO ROLDAN GARCIA
+
+To open the application you need Base and its mini-applications
 
 - [MiniKit](https://docs.base.org/builderkits/minikit/overview)
 - [Farcaster Mini Apps](https://miniapps.xyz)

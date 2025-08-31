@@ -4,8 +4,8 @@ import { useState, useCallback, useMemo } from 'react';
 import { Trophy, Zap, ShoppingCart, TrendingUp, Users, Award, Battery, Wind, Sun, ArrowRight, Shield, Database, Globe, Leaf, BarChart3, AlertTriangle, User, LogIn, LogOut, X, Calculator } from 'lucide-react';
 
 // Componente LoginModal separado - CLAVE para evitar re-renders
-const LoginModal = ({ isOpen, onClose, loginForm, onFormChange, onSubmit }) => {
-  if (!isOpen) return null;
+const LoginModal = ({ isOpen, onClose, loginForm, onFormChange, onSubmit }: any) => {
+    if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">

@@ -4,11 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "SKIP_ENV_VALIDATION=true next build",
+    "build:github": "SKIP_ENV_VALIDATION=true next build && touch ./dist/.nojekyll",
     "start": "next start",
     "lint": "next lint",
-    "frames": "frames"
+    "export": "SKIP_ENV_VALIDATION=true next build && next export"
+  
   },
+  
   "dependencies": {
     "@coinbase/onchainkit": "^0.38.8",
     "@farcaster/auth-client": "^0.3.0",
